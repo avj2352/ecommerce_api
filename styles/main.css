@@ -1,0 +1,29 @@
+section.sec-code {
+  color: #2196f3;
+}
+.categories {
+  list-style: none;
+  padding-left: 0;
+}
+.categories a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #2196f3;
+  text-align: left;
+}
+.categories a:hover {
+  background: #2196f3;
+  text-decoration: none;
+  color: white;
+}
+.categories .inner-list {
+  padding-left: 9px;
+  list-style: none;
+}
+.categories .inner-list li {
+  text-decoration: none;
+}
+.categories .inner-list li a:hover {
+  background-color: #18f751;
+}

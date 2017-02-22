@@ -1,0 +1,44 @@
+<h1 id="zen-e-commmerce">Zen E-commmerce</h1>
+<h2 id="structure-of-e-commerce">Structure of E-commerce</h2>
+<ol>
+<li>Frontend Website</li>
+<li>The Cart &amp; Checkout system</li>
+<li>Paypal Integration</li>
+<li>Admin Panel</li>
+<li>Customer Account</li>
+</ol>
+<hr>
+<h2 id="table-structure">Table Structure</h2>
+<blockquote>
+<p>NOTE: One DB with <code>8 tables</code></p>
+</blockquote>
+<p>The table structure is as follows:</p>
+<ol>
+<li>Products<ul>
+<li>product_id :  <code>int(100)</code> | <code>Primary</code> | <code>A_I</code></li>
+<li>product_cat :  <code>int(100)</code></li>
+<li>product_brand : <code>int(100)</code></li>
+<li>product_title : <code>varchar(255)</code></li>
+<li>product_price : <code>int(100)</code></li>
+<li>product_desc : <code>TEXT</code></li>
+<li>product_image : <code>TEXT</code></li>
+<li>product_keywords : <code>TEXT</code></li>
+</ul>
+</li>
+<li>Categories<ul>
+<li>cat_id : <code>int(100)</code> | <code>Primary</code> | <code>A_I</code></li>
+<li>cat_title : <code>TEXT</code></li>
+</ul>
+</li>
+<li>Brands<ul>
+<li>brand_id : <code>int(100)</code> | <code>Primary</code> | <code>A_I</code></li>
+<li>brand_title : <code>TEXT</code> </li>
+</ul>
+</li>
+<li>Cart</li>
+<li>Customers</li>
+<li>Orders</li>
+<li>Admins</li>
+<li>Payments</li>
+</ol>
+<hr>

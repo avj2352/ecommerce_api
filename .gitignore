@@ -1,0 +1,6 @@
+# Ignore bower_components or node_modules
+
+bower_components/
+node_modules/
+assets/node_modules
+assets/bower_components
